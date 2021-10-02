@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Footer from '..components/Footer'
 
 export default function About() {
     return (
@@ -7,6 +8,7 @@ export default function About() {
             <Link href="/">
                 <a className="p-4 m-4 text-2xl">Back to Home Page</a>
             </Link>
+            <Footer />
         </div>
     )
 }
